@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'Atracoes',
     'Comentarios',
     'Avaliacoes',
+    'Localizacoes',
 ]
 
 MIDDLEWARE = [
