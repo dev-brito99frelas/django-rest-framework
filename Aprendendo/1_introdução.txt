@@ -1,0 +1,20 @@
+DJANGO REST FRAMEWORK
+O que é o  django rest framework? 
+É um framework criado para rodar em cima do framework django ele permite que a gente transforme dados em json e deixe esses exposto para serem utilizados em outras aplicações.
+
+Iniciando ambiente de desenvolvimento:
+1ª coisa a se fazer é criar nosso ambiente virtual  :
+ $ python3 -m venv venvDjangoRest
+2ª coisa a se fazer é ativar a venv :
+ $ source  envDjangoRest/bin/activate
+3ª coisa a se fazer é instalar o django normalmente, com pip:
+ $ pip3 install django
+4ª coisa a se fazer é criar um projeto normal django:
+ $ django-admin startproject pontosTuristicos
+5ª coisa a se fazer é como de costume de início de projeto popular o banco:
+ $ python3 manage.py migrate
+6ª coisa a se fazer éinstalar o djangorestframework:
+ $ pip3 install djangorestframework
+7ª coisa a se fazer é que precisamos registrar no settings do projeto que iremos utilizar ele, em instaled apps;
+
+
