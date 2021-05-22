@@ -31,11 +31,15 @@
 
     ```
 ## Passo a passo para rodar o projeto : 
-- Baixar todas as Dependencias:
+- Baixar todas as Dependencias, é preciso estar dentro da pasta do projeto no mesmo diretorio que o requirements-dev.txt:
     ```
-    pip3 install -r requiriments.txt
+    pip3 install -r requirements-dev.txt
     ```  
-- Rodar as migrações:
+- Fazer as migrações:
+    ```
+    python3 manage.py makemigrations
+    ```  
+- Aplicar as migrações no banco:
     ```
     python3 manage.py migrate
     ```  
