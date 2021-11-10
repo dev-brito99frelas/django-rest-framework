@@ -1,5 +1,5 @@
 # DjangoRestFramework
-## Bem vindo a esse  repositorio Django, esse read-me contem elementos que demonstram como o django framework funciona !
+Bem vindo a esse  repositorio Django, esse read-me contem elementos que demonstram como o django framework funciona !
 
 ### Estrutura de um projeto criado com django:  
 ![django](https://user-images.githubusercontent.com/54487740/117697380-f0127000-b1b1-11eb-9c6c-aadafd41d576.png)
@@ -18,7 +18,7 @@
     ```
 * Ativar Venv
     ```
-    . venv/bin/activate ou source venv/bin/activate
+    . virtualENV/bin/activate ou source virtualENV/bin/activate
     ```
 * pip3
     ```
